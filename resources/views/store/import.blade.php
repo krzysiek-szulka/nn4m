@@ -11,12 +11,29 @@
         <div class="card-header text-center font-weight-bold">
             Store importer
         </div>
+
+        @if($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    <li>{{$errors->first()}}</li>
+                </ul>
+            </div>
+        @endif
+
+        @if (\Session::has('msg'))
+            <div class="alert alert-success">
+                <ul>
+                    <li>{!! \Session::get('msg') !!}</li>
+                </ul>
+            </div>
+        @endif
+
         <div class="card-body">
             <form name="storeImportForm" id="store-import-form" method="post" action="{{url('/store/import')}}" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
                     <label for="file">Description</label>
-                    <input type="file" id="file" name="file" class="form-control">
+                    <input type="file" id="file" name="file" class="form-control" accept="text/xml">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

@@ -145,13 +145,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/database/migrations" />
       <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Service/Store" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,7 +173,7 @@
       <workItem from="1604317640486" duration="999000" />
       <workItem from="1604356127768" duration="304000" />
       <workItem from="1604356873792" duration="355000" />
-      <workItem from="1604476652891" duration="182000" />
+      <workItem from="1604476652891" duration="1411000" />
     </task>
     <servers />
   </component>
@@ -188,10 +189,11 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="782" y="233" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/0.1080.1920.1080@67.27.1853.1053" timestamp="1604396721805" />
-    <state x="769" y="256" width="430" height="594" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604392087308">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="769" y="1080" width="430" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604477182095">
+      <screen x="67" y="27" width="1853" height="2133" />
     </state>
     <state x="769" y="256" width="430" height="594" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053/0.1080.1920.1080@67.27.1853.1053" timestamp="1604392087308" />
+    <state x="769" y="1080" width="430" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.2133@67.27.1853.2133" timestamp="1604477182095" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604317583399">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
