@@ -11,18 +11,20 @@ class CreateStoreErrorCommand extends Command
     private string $source;
     private int $sourceIdentity;
     private string $importId;
+    private ?int $storeNumber;
 
     /**
      * CreateStoreErrorCommand constructor.
      * @param string[] $errors
      */
-    public function __construct(array $errors, string $source, int $sourceIdentity, string $importId)
+    public function __construct(array $errors, string $source, int $sourceIdentity, string $importId, ?int $storeNumber = null)
     {
         parent::__construct();
         $this->errors = $errors;
         $this->source = $source;
         $this->sourceIdentity = $sourceIdentity;
         $this->importId = $importId;
+        $this->storeNumber = $storeNumber;
     }
 
     /**
@@ -46,5 +48,10 @@ class CreateStoreErrorCommand extends Command
     public function getImportId(): string
     {
         return $this->importId;
+    }
+
+    public function getStoreNumber(): ?int
+    {
+        return $this->storeNumber;
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Models\Store;
+use Illuminate\Database\Eloquent\Collection;
 
 class StoreRepository
 {
@@ -11,4 +12,16 @@ class StoreRepository
         return $store->save();
     }
 
+    public function findById(int $id): ?Store
+    {
+        return Store::find($id);
+    }
+
+    /**
+     * @return Collection of Store
+     */
+    public function all(): Collection
+    {
+        return Store::all();
+    }
 }

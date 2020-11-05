@@ -30,7 +30,8 @@ class CreateStoreHandler
                 $validator->messages()->toArray(),
                 $command->getSource(),
                 $command->getSourceIdentity(),
-                $command->getImportId()
+                $command->getImportId(),
+                $storeDto->storeNumber
             ));
             return;
         }

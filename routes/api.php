@@ -11,3 +11,12 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
+Route::get('/stores', [\App\Http\Controllers\Api\StoreController::class, 'listStores']);
+Route::get('/stores/{storeId}', [\App\Http\Controllers\Api\StoreController::class, 'get']);
+
+Route::get('/errors', [\App\Http\Controllers\Api\ErrorController::class, 'listErrors']);
+Route::get('/errors/{storeId}', [\App\Http\Controllers\Api\ErrorController::class, 'getByStoreId']);
+
+

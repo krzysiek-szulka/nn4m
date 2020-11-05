@@ -16,6 +16,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
+        "narrowspark/http-status": "^4.1",
         "ramsey/uuid": "^4.1",
         "spatie/data-transfer-object": "^2.5"
     },

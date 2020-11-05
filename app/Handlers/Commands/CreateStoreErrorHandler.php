@@ -22,6 +22,7 @@ class CreateStoreErrorHandler
         $error->entry_number_in_file = $command->getSourceIdentity();
         $error->errors = $command->getErrors();
         $error->operation_id = $command->getImportId();
+        $error->store_id = $command->getStoreNumber();
 
         $this->errorRepository->create($error);
     }

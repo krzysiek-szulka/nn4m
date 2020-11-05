@@ -13,6 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property integer $entry_number_in_file
  * @property string[] $errors
  * @property string $operation_id
+ * @property integer|null $store_id
  */
 class Error extends Model
 {
@@ -24,6 +25,7 @@ class Error extends Model
         'entry_number_in_file',
         'errors',
         'operation_id',
+        'store_id'
     ];
 
     protected $casts = [
