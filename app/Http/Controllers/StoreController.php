@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Error;
+use App\Service\Error\ErrorService;
 use App\Service\Exception\ReadFileException;
 use App\Service\Store\StoreImporter;
 use Illuminate\Http\RedirectResponse;
@@ -11,11 +13,13 @@ use Illuminate\View\View;
 
 class StoreController extends Controller
 {
-    private $storeImporter;
+    private StoreImporter $storeImporter;
+    private ErrorService $errorService;
 
-    public function __construct(StoreImporter $storeImporter)
+    public function __construct(StoreImporter $storeImporter, ErrorService $errorService)
     {
         $this->storeImporter = $storeImporter;
+        $this->errorService = $errorService;
     }
 
     public function import(): View
@@ -31,14 +35,16 @@ class StoreController extends Controller
 
         try {
             $uploadedFile = $request->file('file');
-            $this->storeImporter->importFromFile(
+            $importId = $this->storeImporter->importFromFile(
                 $uploadedFile->getRealPath(),
                 $uploadedFile->getClientOriginalName()
             );
+
+            $errors = $this->errorService->getErrorsList($importId);
+
+            return Redirect::back()->with('msg', 'Stores imported')->withErrors($errors);
         } catch (ReadFileException $e) {
             return Redirect::back()->withErrors($e->getMessage());
         }
-
-        return Redirect::back()->with('msg', 'Stores imported');
     }
 }

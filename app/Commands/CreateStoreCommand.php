@@ -10,13 +10,15 @@ class CreateStoreCommand extends Command
     private StoreDto $storeDto;
     private string $source;
     private int $sourceIdentity;
+    private string $importId;
 
-    public function __construct(StoreDto $storeDto, string $source, int $sourceIdentity)
+    public function __construct(StoreDto $storeDto, string $source, int $sourceIdentity, string $importId)
     {
         parent::__construct();
         $this->storeDto = $storeDto;
         $this->source = $source;
         $this->sourceIdentity = $sourceIdentity;
+        $this->importId = $importId;
     }
 
     public function getStoreDto(): StoreDto
@@ -32,5 +34,10 @@ class CreateStoreCommand extends Command
     public function getSourceIdentity(): int
     {
         return $this->sourceIdentity;
+    }
+
+    public function getImportId(): string
+    {
+        return $this->importId;
     }
 }

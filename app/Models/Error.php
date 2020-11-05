@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $file_name
  * @property integer $entry_number_in_file
  * @property string[] $errors
+ * @property string $operation_id
  */
 class Error extends Model
 {
@@ -21,7 +22,8 @@ class Error extends Model
     protected $fillable = [
         'file_name',
         'entry_number_in_file',
-        'errors'
+        'errors',
+        'operation_id',
     ];
 
     protected $casts = [

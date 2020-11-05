@@ -4,11 +4,9 @@ namespace App\Handlers\Commands;
 
 use App\Commands\CreateStoreCommand;
 use App\Commands\CreateStoreErrorCommand;
-use App\DTO\AddressDto;
 use App\Models\Store;
 use App\Repositories\StoreRepository;
 use Illuminate\Bus\Dispatcher;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 class CreateStoreHandler
@@ -31,7 +29,8 @@ class CreateStoreHandler
             $this->commandDispatcher->dispatch(new CreateStoreErrorCommand(
                 $validator->messages()->toArray(),
                 $command->getSource(),
-                $command->getSourceIdentity()
+                $command->getSourceIdentity(),
+                $command->getImportId()
             ));
             return;
         }

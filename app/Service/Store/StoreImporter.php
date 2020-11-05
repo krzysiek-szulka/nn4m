@@ -7,6 +7,7 @@ use App\Commands\CreateStoreErrorCommand;
 use App\DTO\Factory\DtoFactory;
 use App\DTO\StoreDto;
 use Illuminate\Bus\Dispatcher;
+use Ramsey\Uuid\Uuid;
 use TypeError;
 
 class StoreImporter
@@ -27,22 +28,26 @@ class StoreImporter
      * @param string $fileOriginalName
      * @throws \App\Service\Exception\ReadFileException
      */
-    public function importFromFile(string $filePath, string $fileOriginalName): void
+    public function importFromFile(string $filePath, string $fileOriginalName): string
     {
         $xml = $this->fileReader->getStoresInfo($filePath);
+
+        $importId = Uuid::uuid4()->toString();
         $entryNumber = 0;
         foreach ($xml as $storeData) {
             $entryNumber++;
             try {
                 /** @var StoreDto $storeDto */
                 $storeDto = $this->dtoFactory->createFromXml(StoreDto::class, $storeData);
-                $this->commandDispatcher->dispatch(new CreateStoreCommand($storeDto, $fileOriginalName, $entryNumber));
+                $this->commandDispatcher->dispatch(new CreateStoreCommand($storeDto, $fileOriginalName, $entryNumber, $importId));
             } catch (TypeError $typeError) {
-                $this->commandDispatcher->dispatch(new CreateStoreErrorCommand([$typeError->getMessage()], $fileOriginalName, $entryNumber));
+                $this->commandDispatcher->dispatch(new CreateStoreErrorCommand([$typeError->getMessage()], $fileOriginalName, $entryNumber, $importId));
             } catch (\Exception $e) {
                  // sth bad happend, log the error
                 var_dump($e); exit;
             }
         }
+
+        return $importId;
     }
 }
