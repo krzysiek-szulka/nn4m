@@ -27,6 +27,7 @@ services:
         command: install
     db:
         container_name: db_nn4m
+        command: mysqld
         image: mysql:5.7
         restart: always
         environment:
@@ -36,5 +37,7 @@ services:
             MYSQL_PASSWORD: somehardpass
         ports:
             - 3306:3306
+        volumes:
+            - ./init:/docker-entrypoint-initdb.d
 volumes:
     pgadmin:

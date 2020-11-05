@@ -21,7 +21,7 @@ class CreateStoresTable extends Migration
             $table->string('site_id', 2); // TODO: not null?
             $table->float('latitude');
             $table->float('longitude');
-            $table->string('phone_number', 20);
+            $table->string('phone_number', 36);
             $table->boolean('cfs_flag');
             $table->timestamps();
         });

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Responses\Error\ErrorResponse;
 use App\Http\Responses\Error\ErrorsListResponse;
 use App\Repositories\ErrorRepository;
 use Illuminate\Http\JsonResponse;
@@ -26,6 +27,6 @@ class ErrorController extends Controller
     {
         $errors = $this->errorRepository->findByStoreId($storeId);
 
-        return new ErrorsListResponse($errors);
+        return new ErrorResponse($errors->first());
     }
 }

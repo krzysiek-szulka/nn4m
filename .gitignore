@@ -4,4 +4,5 @@
 
 /vendor/
 /storage/
+/coverage-dir/
 .phpunit.result.cache
