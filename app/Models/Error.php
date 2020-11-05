@@ -15,9 +15,16 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Error extends Model
 {
+    public $timestamps = false;
+    protected $dates = ['created_at'];
+
     protected $fillable = [
         'file_name',
         'entry_number_in_file',
         'errors'
+    ];
+
+    protected $casts = [
+        'errors' => 'array',
     ];
 }

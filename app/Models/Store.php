@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\ValueObjects\Address;
+use App\DTO\AddressDto;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property integer $id
  * @property integer $store_number
  * @property string $store_name
- * @property Address $address
+ * @property AddressDto $address
  * @property string $site_id
  * @property float $latitude
  * @property float $longitude
@@ -31,5 +31,9 @@ class Store extends Model
         'longitude',
         'phone_number',
         'cfs_flag',
+    ];
+
+    protected $casts = [
+        'address' => 'json',
     ];
 }

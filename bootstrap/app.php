@@ -52,4 +52,12 @@ $app->singleton(
 |
 */
 
+$dispatcher = $app->get(\Illuminate\Bus\Dispatcher::class);
+$dispatcher->map([
+    \App\Commands\CreateStoreCommand::class => \App\Handlers\Commands\CreateStoreHandler::class,
+    \App\Commands\CreateStoreErrorCommand::class => \App\Handlers\Commands\CreateStoreErrorHandler::class,
+]);
+
+$app->singleton(\Illuminate\Bus\Dispatcher::class, fn() => $dispatcher);
+
 return $app;

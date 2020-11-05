@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateErrorsTable extends Migration
@@ -18,7 +19,7 @@ class CreateErrorsTable extends Migration
             $table->string('file_name')->nullable(false);
             $table->integer('entry_number_in_file');
             $table->json('errors');
-            $table->dateTime('created_at');
+            $table->dateTime('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 

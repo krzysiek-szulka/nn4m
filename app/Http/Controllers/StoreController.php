@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Service\Exception\ReadFileException;
 use App\Service\Store\StoreImporter;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -28,7 +29,15 @@ class StoreController extends Controller
             return Redirect::back()->withErrors('Import file missing');
         }
 
-        $this->storeImporter->importFromFile($request->file('file')->getRealPath());
+        try {
+            $uploadedFile = $request->file('file');
+            $this->storeImporter->importFromFile(
+                $uploadedFile->getRealPath(),
+                $uploadedFile->getClientOriginalName()
+            );
+        } catch (ReadFileException $e) {
+            return Redirect::back()->withErrors($e->getMessage());
+        }
 
         return Redirect::back()->with('msg', 'Stores imported');
     }
