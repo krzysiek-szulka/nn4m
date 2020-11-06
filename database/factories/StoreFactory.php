@@ -3,13 +3,10 @@
 namespace Database\Factories;
 
 use App\DTO\AddressDto;
-use App\Models\Store;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class StoreFactory extends Factory
 {
-    protected string $model = Store::class;
-
     public function definition(): array
     {
         return [

@@ -2,13 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Error;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ErrorFactory extends Factory
 {
-    protected string $model = Error::class;
-
     public function definition(): array
     {
         return [
