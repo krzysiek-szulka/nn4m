@@ -36,7 +36,10 @@ class GetErrorsTest extends TestCase
 
     public function testGetErrorByStoreIdReturnsErrorDetails()
     {
-        $response = $this->json('GET', 'api/errors/1');
+        $response = $this->json('GET', 'api/errors');
+        $storeId = $response->json()[0]['store_id'];
+
+        $response = $this->json('GET', 'api/errors/' . $storeId);
         $response->assertStatus(200);
         $response->assertJsonStructure([
             'id',

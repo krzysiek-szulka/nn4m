@@ -18,7 +18,8 @@
         "laravel/tinker": "^2.5",
         "narrowspark/http-status": "^4.1",
         "ramsey/uuid": "^4.1",
-        "spatie/data-transfer-object": "^2.5"
+        "spatie/data-transfer-object": "^2.5",
+        "ext-libxml": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

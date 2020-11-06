@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stores>
+<store>
+<number><![CDATA[101]]></number>
+<code><![CDATA[POL]]></code>
+<name><![CDATA[Silverburn]]></name>
+<manager><![CDATA[Craig Stewart]]></manager>
+<address>
+<address_line_1>Debenhams Retail plc</address_line_1>
+<address_line_2><![CDATA[The Square 763 Barrhead Road]]></address_line_2>
+<address_line_3><![CDATA[]]></address_line_3>
+<city><![CDATA[Silverburn]]></city>
+<county><![CDATA[Silverburn]]></county>
+<country><![CDATA[United Kingdom]]></country>
+<postcode><![CDATA[G53 6AG]]></postcode>
+</address>
+<siteid><![CDATA[GB]]></siteid>
+<coordinates>
+<lat><![CDATA[55.823200]]></lat>
+<lon><![CDATA[-4.342840]]></lon>
+</coordinates>
+<phone_number><![CDATA[0344 800 8877]]></phone_number>
+<cfslocation><![CDATA[First floor - Home till point]]></cfslocation>
+<delivery_lead_time><![CDATA[2]]></delivery_lead_time>
+<cfs_flag><![CDATA[N]]></cfs_flag>
+<standardhours>
+<monday><![CDATA[10:00 - 20:00]]></monday>
+<tuesday><![CDATA[10:00 - 20:00]]></tuesday>
+<wednesday><![CDATA[10:00 - 20:00]]></wednesday>
+<thursday><![CDATA[10:00 - 20:00]]></thursday>
+<friday><![CDATA[10:00 - 20:00]]></friday>
+<saturday><![CDATA[10:00 - 19:00]]></saturday>
+<sunday><![CDATA[10:00 - 19:00]]></sunday>
+</standardhours>
+<services>
+<service>
+<name><![CDATA[FREE WiFi]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-wifi?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[Connect to fast, FREE, easy-to-use O2 WiFi throughout the store.]]></description>
+</service>
+<service>
+<name><![CDATA[In store ordering service]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-order?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+<service>
+<name><![CDATA[Carry to Car]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-carrytocar?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+<service>
+<name><![CDATA[Collect by Car]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-collectbycar?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+<service>
+<name><![CDATA[Parent and Baby room]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-parentnbaby?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[Available on request – please ask a member of staff if you need to use this facility.
+
+Debenhams welcomes even the youngest of customers so we have a parent and baby room located next to the toilets. The room is private and clean so whether its nappy changing or breastfeeding you can cater to your baby’s needs in a comfortable environment.]]></description>
+</service>
+<service>
+<name><![CDATA[Disabled access]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-disabledaccess?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[Accessible toilets are available on request – please ask a member of staff if you need to use this facility.
+
+Debenhams aims to provide exceptional service to all our customers. We offer a number of facilities including designated parking spaces; accessible entrances; accessible customer collection points; lift facilities and Induction loops.]]></description>
+</service>
+<service>
+<name><![CDATA[Clarins Skin Spa]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-clarinsstudio?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+</services>
+<floordepsbrands>
+<floordepsbrand>
+<floor><![CDATA[Lower Ground Floor]]></floor>
+<department><![CDATA[Accessories]]></department>
+<brands><![CDATA[Jon Richard]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Women's clothing]]></department>
+<brands><![CDATA[Jacques Vert,Kookai,Miss Selfridge,Oasis,Phase Eight,Principles by Ben de Lisi,Warehouse,]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Women's accessories]]></department>
+<brands><![CDATA[Fashion accessories,Jewellery,Watches]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Accessories]]></department>
+<brands><![CDATA[Dune,Faith,Shoe Collection,Call it Spring]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Lingerie]]></department>
+<brands><![CDATA[Ultimo,Lingerie]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Health & beauty]]></department>
+<brands><![CDATA[bare Minerals,Benefit,Chanel,Christian Dior,Clarins,Clinique,Elizabeth Arden,Guerlain,Lancôme,YSL,Cosmetics,Estée Lauder]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Menswear]]></department>
+<brands><![CDATA[Mens suits,Mens accessories,Menswear]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Food services]]></department>
+<brands><![CDATA[Style Cafe]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Childrenswear]]></department>
+<brands><![CDATA[Childrenswear]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Home]]></department>
+<brands><![CDATA[Tripp,Home,Wedding Gift Service,Butterfly Home by Matthew Williamson,House & Home by Lisa Stickley,Lighting]]></brands>
+</floordepsbrand>
+</floordepsbrands>
+</store>
+<store>
+<number><![CDATA[102]]></number>
+<code><![CDATA[BED]]></code>
+<name><![CDATA[Bedford]]></name>
+<manager><![CDATA[Kerry Tearle]]></manager>
+<address>
+<address_line_1>Debenhams Retail plc</address_line_1>
+<address_line_2><![CDATA[Debenhams Bedford]]></address_line_2>
+<address_line_3><![CDATA[48-54 High Street]]></address_line_3>
+<city><![CDATA[Bedford]]></city>
+<county><![CDATA[Bedfordshire]]></county>
+<country><![CDATA[United Kingdom]]></country>
+<postcode><![CDATA[MK40 1SP]]></postcode>
+</address>
+<siteid><![CDATA[GB]]></siteid>
+<coordinates>
+<lat><![CDATA[52.136900]]></lat>
+<lon><![CDATA[-0.466730]]></lon>
+</coordinates>
+<phone_number><![CDATA[0344 800 8877]]></phone_number>
+<cfslocation><![CDATA[Second floor]]></cfslocation>
+<delivery_lead_time><![CDATA[2]]></delivery_lead_time>
+<cfs_flag><![CDATA[N]]></cfs_flag>
+<standardhours>
+<monday><![CDATA[09:30 - 17:30]]></monday>
+<tuesday><![CDATA[09:30 - 17:30]]></tuesday>
+<wednesday><![CDATA[09:30 - 17:30]]></wednesday>
+<thursday><![CDATA[09:30 - 17:30]]></thursday>
+<friday><![CDATA[09:30 - 17:30]]></friday>
+<saturday><![CDATA[09:30 - 17:30]]></saturday>
+<sunday><![CDATA[10:00 - 17:00]]></sunday>
+</standardhours>
+<services>
+<service>
+<name><![CDATA[FREE WiFi]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-wifi?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[Connect to fast, FREE, easy-to-use O2 WiFi throughout the store.]]></description>
+</service>
+<service>
+<name><![CDATA[Brow Bar]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+<service>
+<name><![CDATA[In store ordering service]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-order?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+<service>
+<name><![CDATA[Collect by Car]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-collectbycar?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[To support social distancing this service is currently unavailable.]]></description>
+</service>
+<service>
+<name><![CDATA[Parent and Baby room]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-parentnbaby?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[Available on request – please ask a member of staff if you need to use this facility.
+
+Debenhams welcomes even the youngest of customers so we have a parent and baby room located next to the toilets. The room is private and clean so whether its nappy changing or breastfeeding you can cater to your baby’s needs in a comfortable environment.]]></description>
+</service>
+<service>
+<name><![CDATA[Disabled access]]></name>
+<image><![CDATA[http://debenhams.scene7.com/is/image/Debenhams/mystore-service-disabledaccess?wid=132&hei=112&qlt=99]]></image>
+<description><![CDATA[Accessible toilets are available on request – please ask a member of staff if you need to use this facility.
+
+Debenhams aims to provide exceptional service to all our customers. We offer a number of facilities including designated parking spaces; accessible entrances; accessible customer collection points; lift facilities and Induction loops.]]></description>
+</service>
+</services>
+<floordepsbrands>
+<floordepsbrand>
+<floor><![CDATA[Lower Ground Floor]]></floor>
+<department><![CDATA[Health & beauty]]></department>
+<brands><![CDATA[Elizabeth Arden,YSL]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Lower Ground Floor]]></floor>
+<department><![CDATA[Childrenswear]]></department>
+<brands><![CDATA[Childrenswear,Kids gifts]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Health & beauty]]></department>
+<brands><![CDATA[Beauty Box,Christian Dior,Clarins,Clinique,Cosmetics,Estée Lauder,Fine fragrance,Lancôme,Spa]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Menswear]]></department>
+<brands><![CDATA[BMB Suits,Ben Sherman,Jeff Banks,Accessories,Casual Club,Formalwear,Gadgets & games,Jasper Conran,John Rocha,Kickers,Loungewear,Maine,Menswear,Red Herring,Shoes,Socks,Trader,Underwear,Men's accessories]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Jewellery]]></department>
+<brands><![CDATA[Jewellery]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Gifts]]></department>
+<brands><![CDATA[Seasonal gifts]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Ground Floor]]></floor>
+<department><![CDATA[Women's clothing]]></department>
+<brands><![CDATA[Oasis,Warehouse,Red Herring]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Women's clothing]]></department>
+<brands><![CDATA[Anne Brooks,Antoni & Alison,Casual Club,Collection,Debut,J Taylor,Jasper Conran,Kaliko,Principles by Ben de Lisi,Wallis,John Rocha,Maine,Butterfly by Matthew Williamson,Pearce Fionda,Pineapple,Spirit]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Womens accessories]]></department>
+<brands><![CDATA[Accessories,Handbags,Hosiery,Jewellery,Millinery,Swimwear]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Lingerie]]></department>
+<brands><![CDATA[Lingerie]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[First Floor]]></floor>
+<department><![CDATA[Accessories]]></department>
+<brands><![CDATA[Faith Shoes,Shoe Studio/Collection]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Second Floor]]></floor>
+<department><![CDATA[Food services]]></department>
+<brands><![CDATA[Restaurant]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Second Floor]]></floor>
+<department><![CDATA[Home]]></department>
+<brands><![CDATA[Montgomery,Bathshop,Bed linen,China,Cookshop,Designer living,Glass,Summer living]]></brands>
+</floordepsbrand>
+<floordepsbrand>
+<floor><![CDATA[Second Floor]]></floor>
+<department><![CDATA[Accessories]]></department>
+<brands><![CDATA[Tripp Luggage]]></brands>
+</floordepsbrand>
+</floordepsbrands>
+</store>
+</stores>

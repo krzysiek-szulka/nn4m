@@ -44,7 +44,6 @@ class StoreImporter
                 $this->commandDispatcher->dispatch(new CreateStoreErrorCommand([$typeError->getMessage()], $fileOriginalName, $entryNumber, $importId));
             } catch (\Exception $e) {
                  // sth bad happend, log the error
-                var_dump($e); exit;
             }
         }
 

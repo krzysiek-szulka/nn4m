@@ -14,6 +14,8 @@ class XmlFileReader
      */
     public function getStoresInfo(string $filePath): SimpleXMLElement
     {
+        libxml_use_internal_errors(true);
+
         if (!file_exists($filePath)) {
             throw new ReadFileException("File $filePath not exists");
         }
